@@ -11,21 +11,21 @@ const Navbar =()=>{
         setNav(!nav)
     }
     return(
-        <div className='flex justify-between items-center h-20 px-3 '>
+        <div className='flex w-full justify-between items-center h-20 px-3 absolute z-30'>
             <h1 className='md:text-4xl'>Beaches</h1>
             <ul className=' hidden md:flex '>
-                <li><a href="">Home</a></li>
-                <li><a href="">Destinations</a></li>
-                <li><a href="">Book</a></li>
-                <li><a href="">View</a></li>
+                <li className='hover:bg-gray-300 rounded-full '><a href="#">Home</a></li>
+                <li className='hover:bg-gray-300 rounded-full '><a href="#">Destinations</a></li>
+                <li className='hover:bg-gray-300 rounded-full '><a href="">Book</a></li>
+                <li className='hover:bg-gray-300 rounded-full '><a href="">View</a></li>
             </ul>
-            <div className='hidden md:flex gap-2'>
+            <div className='hidden md:flex gap-2 '>
                 <BiSearch />
                 <BsPerson />
             </div>
             {/*Hmaburger */}
             <div onClick={handleNav} className='md:hidden z-10 hover:bg-slate-300 p-2 rounded-full cursor-pointer '>
-                {nav?<AiOutlineClose size={20} />: <HiOutlineMenuAlt4 size={20} /> }
+                {nav?<AiOutlineClose size={25} />: <HiOutlineMenuAlt4 size={25} /> }
                 
             </div>
            {/*Mobile Navbar */}
@@ -38,8 +38,8 @@ const Navbar =()=>{
                 <li className='hover:bg-slate-300 border-slate-400 rounded-lg'><a href="">View</a></li>
             </ul>
             <div className='flex flex-col mx-5' >
-                <button>Search</button>
-                <button>Account</button>
+                <button className='p-3 my-5 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 border rounded-full'>Search</button>
+                <button className='p-3 my-5 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 border rounded-full'>Account</button>
             </div>
             <div className='flex justify-between mx-6 my-8'>
                 <FaFacebook className='hover:text-blue-600 icons' />

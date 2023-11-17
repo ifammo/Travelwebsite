@@ -9,14 +9,12 @@
        @apply font-[Poppins]
     }
     li {
-        @apply p-4 
+        @apply px-4 py-2
     }
     h1 {
         @apply text-3xl font-black
     }
-    button {
-        @apply p-3 my-5 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 border rounded-full
-    }
+    
     .icons {
         @apply text-2xl cursor-pointer
     }
