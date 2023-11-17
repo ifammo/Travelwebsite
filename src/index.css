@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@layer base {
+    body {
+       @apply font-[Poppins]
+    }
+    li {
+        @apply p-4 
+    }
+    h1 {
+        @apply text-3xl font-black
+    }
+    button {
+        @apply p-3 my-5 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 border rounded-full
+    }
+    .icons {
+        @apply text-2xl cursor-pointer
+    }
+}
