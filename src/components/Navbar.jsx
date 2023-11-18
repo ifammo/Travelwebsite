@@ -38,8 +38,8 @@ const Navbar =()=>{
                 <li className='hover:bg-slate-300 border-slate-400 rounded-lg'><a href="">View</a></li>
             </ul>
             <div className='flex flex-col mx-5' >
-                <button className='p-3 my-5 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 border rounded-full'>Search</button>
-                <button className='p-3 my-5 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 border rounded-full'>Account</button>
+                <button className='p-3 my-5 bg-gradient-to-r from-green-400 to-blue-500 hover:from-cyan-500 hover:to-amber-700 border rounded-full'>Search</button>
+                <button className='p-3 my-5 bg-gradient-to-r from-green-400 to-blue-500 hover:from-cyan-500 hover:to-amber-700 border rounded-full'>Account</button>
             </div>
             <div className='flex justify-between mx-6 my-8'>
                 <FaFacebook className='hover:text-blue-600 icons' />
