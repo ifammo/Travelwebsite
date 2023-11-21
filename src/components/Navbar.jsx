@@ -11,9 +11,9 @@ const Navbar =()=>{
         setNav(!nav)
     }
     return(
-        <div className='flex w-full justify-between items-center h-20 px-3 absolute z-30'>
+        <div className='flex w-full justify-between items-center h-20 px-3 absolute z-10 '>
             <h1 className='md:text-4xl'>Beaches</h1>
-            <ul className=' hidden md:flex '>
+            <ul className=' hidden md:flex bg-gray-900/20 rounded-full'>
                 <li className='hover:bg-gray-300 rounded-full '><a href="#">Home</a></li>
                 <li className='hover:bg-gray-300 rounded-full '><a href="#">Destinations</a></li>
                 <li className='hover:bg-gray-300 rounded-full '><a href="">Book</a></li>

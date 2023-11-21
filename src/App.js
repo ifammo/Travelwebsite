@@ -3,6 +3,8 @@ import Navbar from './components/Navbar.jsx';
 import Foto from './components/Foto.jsx';
 import Desti from './components/Desti';
 import Bestplace from './components/Bestplace.jsx';
+import SlideBar from './components/Slide.jsx';
+import Footer from './components/Footer.jsx';
 
 function App() {
   return (
@@ -11,7 +13,9 @@ function App() {
       <Hero />
       <Foto />
       <Desti />
-      <Bestplace />
+      <Bestplace /> 
+      <SlideBar />
+      <Footer />
     </>
    
   );
